@@ -1,0 +1,9 @@
+CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
+CREATE TABLE 
+IF NOT EXISTS 
+object(
+object_id SERIAL PRIMARY KEY,
+object_name VARCHAR(50) 
+);
+
+

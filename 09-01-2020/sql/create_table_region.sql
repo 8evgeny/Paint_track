@@ -1,0 +1,9 @@
+CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
+CREATE TABLE 
+IF NOT EXISTS 
+region(
+region_id SERIAL PRIMARY KEY,
+region_name VARCHAR(50) 
+);
+
+
